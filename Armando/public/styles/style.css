@@ -1,0 +1,76 @@
+
+
+body { 
+    margin: 0; padding: 0; 
+}
+
+#map { 
+    position: absolute; top: 5%; bottom: 0; width: 100%;
+}
+
+.map-overlay {
+    font:
+        12px/20px 'Helvetica Neue',
+        Arial,
+        Helvetica,
+        sans-serif;
+    position: absolute;
+    width: 200px;
+    top: 015;
+    left: 0;
+    padding: 10px;
+}
+
+.map-overlay .map-overlay-inner {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.map-overlay-inner fieldset {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.map-overlay-inner label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.map-overlay-inner .select-fieldset {
+    display: block;
+}
+
+.map-overlay-inner .select-fieldset label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.map-overlay-inner .select-fieldset select {
+    width: 100%;
+}
+
+
+.mapboxgl-popup {
+    max-width: 200px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+.navbar{
+    margin-top: -1rem;
+
+  }
+.container-fluid{
+    background-color: #EF476F;
+    padding: 1%;
+    margin: 0px;
+    color: white;
+  }
+
+  .logo{
+    width: 4%;
+    height: 4%;
+    margin-right: 20px;
+  }
